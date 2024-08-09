@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-height: 100svh;
+  background-image: url(images/spartan2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote-box{
+    background-color: rgba(236, 196, 148, 0.5);
+    width: 75%;
+    aspect-ratio: 3 / 1.4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: .5rem;
+    font-weight: bold;
+    transition: all 250ms;
+    color: rgb(216, 32, 32);
+    text-shadow: 2px 2px rgb(125, 8, 8);
+    padding: 1.8em;
+    text-align: center;
+}
+
+
+@media (max-width: 500px){
+   h1{
+    font-size: 1.5rem;
+   }
+}
+
+
+.quote-box:active{
+    transform: scale(.9555);
+}
+
+
+
+.container{
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 15, 15, 0.5);
+}
+
+h3{
+    color: bisque;
+    padding: 1em;
+    text-shadow: 2px 2px rgb(98, 88, 88);
+}
